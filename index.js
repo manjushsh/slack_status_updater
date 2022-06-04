@@ -30,7 +30,7 @@ const slackOperations = async () => {
 const updatePresence = async ({ type = "auto", web }) => {
 	const userPresence = await web.users.getPresence();
 	const setAway = await web.users.setPresence({ ...userPresence, presence: type });
-	if (setAway.ok) console.log('Your presence set to away.');
+	if (setAway.ok) console.log(`Your presence set to ${type}.`);
 };
 
 // min and max included
