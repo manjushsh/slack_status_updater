@@ -4,5 +4,7 @@ module.exports = {
         DURATION: 2, // Duration in minutes. Set 0 for 'Don't Clear'
         MESSAGE: "AFK",
         SLACK_EMOJI: ':afk:',
+        isAway: false,
+        mode: 'set',    // 'set' or 'reset'
     },
 };
