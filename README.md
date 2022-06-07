@@ -3,7 +3,7 @@
 
 This script will keep updating your slack status every 'x' minutes until you are back to desk.
 
-## Why?
+## Why
 
 Why not?
 
