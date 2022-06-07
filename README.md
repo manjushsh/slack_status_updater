@@ -13,4 +13,5 @@ Why not?
 
 ## Screenshots
 
-![Permissions](https://ibb.co/Wptdz60)
+![ss01](https://user-images.githubusercontent.com/94426452/172037238-a36b292d-6fb6-43bb-a342-198b2d3c064d.png)
+
