@@ -37,7 +37,8 @@ const updatePresence = async ({ type = "auto", web }) => {
 
 const _init = async () => {
     while (true) {
-        const interval = CONFIGURATION.STATUS.DURATION * 60 * 1000 || 300000;
+        const duration = CONFIGURATION.STATUS.DURATION - (CONFIGURATION.STATUS.DURATION * 0.4);
+        const interval = duration * 60 * 1000 || 300000;
         slackOperations();
         await new Promise(resolve => setTimeout(resolve, interval));
     };
