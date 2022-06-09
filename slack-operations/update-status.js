@@ -5,7 +5,7 @@ import AuthService from './config/slack-auth';
 const slackOperations = async () => {
 
     const web = await AuthService.getSlackClientInstance({ slackKey: process.env.SLACK_KEY });
-    const durationTimestamp = moment().add(CONFIGURATION.STATUS.DURATION || 5, 'minutes').unix();
+    const durationTimestamp = moment().add(CONFIGURATION.STATUS.DURATION + 1 || 5, 'minutes').unix();
 
     const profileInfo = await web.users.profile.get();
 
