@@ -14,7 +14,7 @@
     "@slack/bolt": "^3.11.1",
     "@slack/web-api": "^6.7.1",
     "axios": "^0.27.2",
-    "moment": "^2.29.3"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@types/nodemon": "^1.19.1",
